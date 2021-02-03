@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <button onclick="fetchTodos()">Fetch Todos</button>
+    <button onclick="logTodos()">Log Todos</button>
+    <button onclick="populateTodos()">Populate Todos</button>
+    <input id="idnumber" type="number" min="0" max="10">
+    <button onclick="reset()">Reset</button>
+    <button onclick="completed()" style="background-color: red;;"> Completed </button>
+    <button onclick="notCompleted()" style="background-color: green;"> Not Completed </button>
+    <ol id="todo-list">
+
+    </ol>
+</body>
+</html>
